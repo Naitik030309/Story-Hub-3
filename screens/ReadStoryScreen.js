@@ -7,23 +7,25 @@ export default class ReadStory extends React.Component {
       <View style={styles.container}>
         <Text style={styles.header}>Story Hub</Text>
         <Text style={{ fontWeight: 'bold', fontSize: 20 }}>
-          The Giant Part 1
+          The Giant Part 2
         </Text>
         <Text>
-          Once upon a time, in a dense forest there lived a kind hearted giant
-          whose name is Chary. He loves to play with the animals and the animals
-          also loved to play with him. One day something strange happened, the
-          animals of the jungle started attacking on Chary. Chary tried to help
-          them but they doesn't listen to him and continued attacking him. So
-          Chary started running towards his home. But some big gorilla's stopped
-          his way and the gorilla's also started attcking him. He managed his
-          way to home by passing the gorilla's. After reaching his home he
-          started thinking why this is happening. After sometime he listened a
-          strange sound. It was the sound of a witch flying on her magical
-          broom. When he looked outside of his window he saw that the witch is
-          saying something to the animals. After sometime the witch turned her
-          broom towards her house. Then the giant came outside of his house and
-          the animals started attacking him again.
+          So after getting attacked by the animals again,he broke a huge tree
+          and because of that the animals stop.When he saw he has time to run
+          he follows the magic broom's dust all along the path because the magic
+          broom leave a very little quantity of dust on his path which remains
+          on the whole way until 5 hours is complete.So Chary followed the dust
+          and reached the witch house.When the witch came outside of his house,
+          she saw Chary and she running towards her house but Chary blocked her
+          way.Chary asked her how to make the animals normal again but the
+          witch didn't reply so he growl loudly which causes pain in the witch's
+          ears.After a few moment a very bright white light starting to glow
+          from inside the witch and then suddenly the witch turned into a queen.
+          Then Chary asked her about his witch form,so the queen told him that
+          she was caught by a witch and she has turned me into a witch and told
+          me that the only way from which I can became normal was that hearing a
+          very loud sound.Thank you for your help.I will ask my father to
+          reward you.
         </Text>
       </View>
     );
@@ -37,7 +39,7 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     fontWeight: 'bold',
     fontSize: 50,
-    marginTop: -30,
+    marginTop: -10,
     fontFamily: 'snap itc',
     color: 'violet',
   },

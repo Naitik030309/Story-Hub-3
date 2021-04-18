@@ -6,6 +6,7 @@ import {
   TouchableOpacity,
   StyleSheet,
 } from 'react-native';
+import db from '../config';
 
 export default class WriteStory extends React.Component {
   constructor() {
@@ -16,6 +17,19 @@ export default class WriteStory extends React.Component {
       story: '',
     };
   }
+
+  submitStory = () => {
+    db.collection('User-Story').add({
+      title: this.state.title,
+      author: this.state.author,
+      story: this.state.story,
+    });
+    this.setState({
+      title: '',
+      author: '',
+      story: '',
+    });
+  };
 
   render() {
     return (
@@ -53,7 +67,7 @@ export default class WriteStory extends React.Component {
           multiline={true}
           value={this.state.story}
         />
-        <TouchableOpacity style={styles.button}>
+        <TouchableOpacity style={styles.button} onPress={this.submitStory}>
           <Text style={styles.buttonText}>Submit</Text>
         </TouchableOpacity>
       </View>
@@ -74,7 +88,7 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     fontWeight: 'bold',
     fontSize: 50,
-    marginTop: -25,
+    marginTop: -45,
     fontFamily: 'snap itc',
     color: 'violet',
   },
