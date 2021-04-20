@@ -7,25 +7,23 @@ export default class ReadStory extends React.Component {
       <View style={styles.container}>
         <Text style={styles.header}>Story Hub</Text>
         <Text style={{ fontWeight: 'bold', fontSize: 20 }}>
-          The Giant Part 2
+          The Giant Part 3
         </Text>
         <Text>
-          So after getting attacked by the animals again,he broke a huge tree
-          and because of that the animals stop.When he saw he has time to run
-          he follows the magic broom's dust all along the path because the magic
-          broom leave a very little quantity of dust on his path which remains
-          on the whole way until 5 hours is complete.So Chary followed the dust
-          and reached the witch house.When the witch came outside of his house,
-          she saw Chary and she running towards her house but Chary blocked her
-          way.Chary asked her how to make the animals normal again but the
-          witch didn't reply so he growl loudly which causes pain in the witch's
-          ears.After a few moment a very bright white light starting to glow
-          from inside the witch and then suddenly the witch turned into a queen.
-          Then Chary asked her about his witch form,so the queen told him that
-          she was caught by a witch and she has turned me into a witch and told
-          me that the only way from which I can became normal was that hearing a
-          very loud sound.Thank you for your help.I will ask my father to
-          reward you.
+        When Chary got lot of gifts from the king then he spend his live in enjoyment. 
+        Then one day some intruders enters that kingdom and the king was unable to 
+        fight them then he called Chary to help them. Chary accepted king request and 
+        went to fight with the intruders. When he reached the place where the 
+        intruders are spotted he saw something and he was surprised. He said "You! Is 
+        I'm in my dream. You are alive". He was very surprised to see his family who 
+        was separated in a volcanic eruption. Then he bringed his family inside his 
+        house. The family told him how they protect themselves from the volcanic 
+        eruption. Chary was feeling sorry because he was the most powerful and wise 
+        giant on their island but he did nothing to stop that volcanic eruption and 
+        ran away from the island and came to live in tis large kingdom. His family 
+        told him it was the master plan of his biggest enemy.The Mad Scientist Quiter. 
+        Chary became angry and said his family that he is going to fight with him. 
+        When he was going out he feeled that something is strange and when he looked back.
         </Text>
       </View>
     );

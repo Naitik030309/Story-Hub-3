@@ -5,6 +5,8 @@ import {
   Text,
   TouchableOpacity,
   StyleSheet,
+  KeyboardAvoidingView,
+  ToastAndroid
 } from 'react-native';
 import db from '../config';
 
@@ -29,11 +31,15 @@ export default class WriteStory extends React.Component {
       author: '',
       story: '',
     });
+    var submitMessage = "Story Submitted Successfully";
+    ToastAndroid.show(submitMessage,ToastAndroid.LONG,ToastAndroid.CENTER);
   };
 
   render() {
     return (
-      <View style={styles.container}>
+      <KeyboardAvoidingView         
+        style = {styles.container}
+        behavior = "padding" enabled>
         <Text style={styles.header}>Story Hub</Text>
 
         <TextInput
@@ -70,7 +76,7 @@ export default class WriteStory extends React.Component {
         <TouchableOpacity style={styles.button} onPress={this.submitStory}>
           <Text style={styles.buttonText}>Submit</Text>
         </TouchableOpacity>
-      </View>
+      </KeyboardAvoidingView>
     );
   }
 }
